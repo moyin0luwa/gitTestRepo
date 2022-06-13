@@ -1,5 +1,6 @@
-//create promise 
-var hasFineFace = false;
+const axios = require("axios");
+/* //create promise 
+var hasFineFace = true;
 const promise = new Promise((resolve, reject) => {
     if (hasFineFace){
         baesDetails = {
@@ -14,7 +15,7 @@ const promise = new Promise((resolve, reject) => {
 })
 
 var dateOn = () => {
-promise.then((done) => {
+ promise.then((done) => {
     msg = done.name + '! we are going on a date'
     console.log(msg)
 }).catch((error) => {
@@ -22,4 +23,7 @@ promise.then((done) => {
 })
 }
 
-dateOn()
+dateOn()  */
+
+//promises with calls to an external Api
+
