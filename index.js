@@ -1,3 +1,11 @@
-console.log("Hi i'm new")
-console.log("Hi i'm and i'm here to stay")
-console.log("Hi i'm and i'm here to stay 767")
+babesDetails = {
+    name: 'Assumpta',
+    compleextion : 'fair'
+}
+
+console.log(babesDetails.name)
+//using prompt in node js
+const ps = require("prompt-sync")
+
+const prompt = ps()
+prompt()
